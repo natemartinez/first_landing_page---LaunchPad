@@ -1,0 +1,80 @@
+
+
+#navbarNav{
+    margin-right: 150px;
+    padding: 15px;
+}
+
+.navbar-brand{
+    margin-left: 70px;
+}
+
+.nav-item{
+    font-size:18px;
+}
+
+#homepage-wrapper{
+    margin-top:100px;
+}
+
+
+#phone{
+    height: 350px;
+    width: 350px;
+    margin-right:150px; 
+}
+
+#perk-text{
+    margin-top: 200px;
+}
+
+#perk-container{
+    margin-top: 135px;
+}
+
+.perk-blocks{
+    margin-top:75px
+}
+
+.block{
+    width:75px;
+    height: 75px;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+#notebook{
+    width: 50px;
+    height: 50px;
+}
+#notebook-block{
+    padding: 10px;
+}
+
+#shield{
+    width: 50px;
+    height: 50px;
+}
+#shield-block{
+    padding: 10px;
+}
+
+#clock{
+    width: 35px;
+    height: 35px;
+}
+#clock-block{
+    padding: 18px;
+}
+
+#rocket{
+    width: 70px;
+    height: 70px;
+}
+
+#phoneWithApp{
+    width:400px;
+    height: 400px;
+    margin-top:125px;
+}
