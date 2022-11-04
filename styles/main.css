@@ -19,9 +19,8 @@
 
 
 #phone{
-    height: 375px;
-    width: 375px;
-    margin-right:150px; 
+    width: 400px;
+     
 }
 
 #perk-text{
@@ -80,4 +79,9 @@
     width:425px;
     height: 425px;
     margin-top:125px;
+}
+#padlock{
+    width: 200px;
+    height: 150px;
+    margin-right: 100px;
 }
