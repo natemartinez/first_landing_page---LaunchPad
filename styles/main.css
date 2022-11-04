@@ -19,8 +19,8 @@
 
 
 #phone{
-    height: 350px;
-    width: 350px;
+    height: 375px;
+    width: 375px;
     margin-right:150px; 
 }
 
@@ -73,8 +73,11 @@
     height: 70px;
 }
 
+.third-container{
+    padding: 0px 150px 0px 125px;
+}
 #phoneWithApp{
-    width:400px;
-    height: 400px;
+    width:425px;
+    height: 425px;
     margin-top:125px;
 }
