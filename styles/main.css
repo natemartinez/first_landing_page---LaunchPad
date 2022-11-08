@@ -52,8 +52,8 @@
 }
 
 #perk-container{
-    margin-top: 100px;
-    padding-bottom:50px
+    margin-top: 10vw;
+    padding-bottom:10vw;
    
 }
 
@@ -64,6 +64,7 @@
 .block{
     width:75px;
     height: 75px;
+    padding:10px;
     margin: auto;
     border: 2px solid red;
     border-radius: 10%;
@@ -73,26 +74,22 @@
     width: 50px;
     height: 50px;
 }
-#notebook-block{
-    padding: 10px;
-}
-
 #shield{
     width: 50px;
     height: 50px;
 }
-#shield-block{
-    padding: 10px;
-}
 
+#clock-block{
+    padding: 19px;
+}
 #clock{
     width: 35px;
     height: 35px;
 }
-#clock-block{
-    padding: 18px;
-}
 
+#rocket-block{
+    padding:0.2vw;
+}
 #rocket{
     width: 70px;
     height: 70px;
@@ -104,8 +101,8 @@
 }
 
 #feature-container{
-    padding-top: 25px;
-    margin-top: 75px;
+    padding-top: 4vw;
+    margin-top: 4vw;
     margin-bottom: 75px;
 }
 #phoneWithApp{
@@ -119,9 +116,13 @@
 }
 
 #review-section{
-    padding-top: 75px;
+    padding-top: 10vw;
     background-color: rgb(239, 238, 238);
     padding-bottom: 5px;
+}
+
+#review-intro-text{
+    font-size: 3vw;
 }
 
 .review-block{
@@ -135,12 +136,15 @@
 }
 
 #review-container{
-    margin-top:100px;
+    margin-top:10vw;
     margin-bottom: 150px;
 }
 
 .review-logo{
     width: 100px;
+}
+.review-text{
+    font-size: 25px;
 }
 
 .footer{
@@ -152,14 +156,89 @@
     width: 45px;
 }
 
+.perk-text{
+    font-size:1.5vw;
+    margin-top:15px;
+    margin-bottom:25px
+}
+
 @media only screen and (max-width:767px) {
 
     #homepage-wrapper{
-        margin: 0px;
+        margin:0px;
+    }
+
+   #intro-text-wrapper{
+    font-size: 3vw;
+   }
+
+    #phone{
+        width:40vw
+    }
+
+    #perk-header-text{
+        font-size:5vw;
+        margin-top: 10vw;
+    }
+
+    .block{
+        width:13vw;
+        height: 13vw;
+        padding: 1vw;
+    }
+
+    #notebook{
+        width:10vw;
+        height:10vw;
     }
  
+    #shield{
+        width:10vw;
+        height:10vw;
+    }
+    #clock-block{
+        padding:15px
+    } 
+    #clock{
+        width: 8vw;
+        height: 8vw;
+    }
+
+
+    #rocket-block{
+        padding:0vw;
+    }
+    #rocket{
+        width: 13vw;
+        height: 13vw;
+        
+    }
+    
+
+    .perk-text{
+        font-size: 3.5vw;
+    }
+
+
+    #phoneWithApp{
+        width: 50vw;
+        margin-left: -7vw;
+    }
+    #feature-text{
+        font-size:2vw
+    }
+
+    #review-intro-text{
+        font-size: 4vw;
+    }
    .review-text{
     font-size: 15px;
    }
     
+}
+
+@media only screen and (max-width:600px){
+    #phoneWithApp{
+        margin-left: 0px;
+    }
 }
